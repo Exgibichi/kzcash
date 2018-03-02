@@ -121,7 +121,7 @@ public:
         nDefaultPort = 8277;
         nMaxTipAge = 100 * 24 * 60 * 60; // ~144 blocks behind -> 2 x fork detection time, was 24 * 60 * 60 in bitcoin
         nPruneAfterHeight = 100000;
-        genesis = CreateGenesisBlock(1519804872, 147683, 0x1f00ffff, 1, 50 * COIN);
+        genesis = CreateGenesisBlock(1519804872, 26569, 0x1f00ffff, 1, 50 * COIN);
         if (false) {
             /*
             new mainnet genesis hash: CBlock(hash=0000580a864fa09315c854185d7bbbb78260a69bf5a087e690b1c9c2526fe4da, ver=1, hashPrevBlock=0000000000000000000000000000000000000000000000000000000000000000, hashMerkleRoot=8db586d27703f1736c8c41322745ed82acd81fa7fab0e7215b7e1b0899277496, nTime=1508535054, nBits=1f00ffff, nNonce=26039, vtx=1)
