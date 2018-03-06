@@ -90,7 +90,7 @@ public:
         consensus.nMajorityRejectBlockOutdated = 950;
         consensus.nMajorityWindow = 1000;
         consensus.BIP34Height = 0;
-        consensus.BIP34Hash = uint256S("0x00005c80be48885843f0f415ff33a99376a824be8597f9651d8e7f4a1d2e0fa2");
+        consensus.BIP34Hash = uint256S("0x0000b25d12aa27846676b5481cfdf681fc0b679d34e5247ec1bd116b6a295ce2");
         consensus.powLimit = uint256S("000fffff00000000000000000000000000000000000000000000000000000000");
         consensus.nPowTargetTimespan = 24 * 60 * 60; // KZCash: 1 day
         consensus.nPowTargetSpacing = 60;      // KZCash: 2.5 minutes
@@ -121,9 +121,9 @@ public:
         nMaxTipAge = 6 * 60 * 60; // ~144 blocks behind -> 2 x fork detection time, was 24 * 60 * 60 in bitcoin
         nPruneAfterHeight = 100000;
 
-        genesis = CreateGenesisBlock(1519804872, 26569, 0x1f00ffff, 1, 50 * COIN);
+        genesis = CreateGenesisBlock(1520332122, 4398, 0x1f00ffff, 1, 50 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
-        assert(consensus.hashGenesisBlock == uint256S("0x00005c80be48885843f0f415ff33a99376a824be8597f9651d8e7f4a1d2e0fa2"));
+        assert(consensus.hashGenesisBlock == uint256S("0x0000b25d12aa27846676b5481cfdf681fc0b679d34e5247ec1bd116b6a295ce2"));
         assert(genesis.hashMerkleRoot == uint256S("0x17f10beb710fcee7b507494352d278b902d028158d323b64864fa79580592f02"));
 
 
