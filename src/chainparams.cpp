@@ -77,7 +77,7 @@ public:
         consensus.nSubsidyHalvingInterval = 210240; // Note: actual number of blocks per calendar year with DGW v3 is ~200700 (for example 449750 - 249050)
         consensus.nMasternodePaymentsStartBlock = 240;
         consensus.nInstantSendKeepLock = 24;
-        consensus.nBudgetPaymentsStartBlock = 30000; // actual historical value
+        consensus.nBudgetPaymentsStartBlock = 3224; // actual historical value
         consensus.nBudgetPaymentsCycleBlocks = 50;   // ~(60*24*30)/2.6, actual number of blocks per month is 200700 / 12 = 16725
         consensus.nBudgetPaymentsWindowBlocks = 10;
         consensus.nBudgetProposalEstablishingTime = 60 * 20;
